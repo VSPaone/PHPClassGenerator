@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Student",
+        "globals": [
+            {
+                "name": "grade",
+                "access": "public"
+            },
+            {
+                "name": "percentage",
+                "access": "public"
+            }
+        ],
+        "params": [
+            "name",
+            "roll_no",
+            "marks"
+        ],
+        "functions": [
+            {
+                "name": "findPercentage",
+                "params": [
+                    "marks"
+                ]
+            },
+            {
+                "name": "findGrade",
+                "params": [
+                    "marks"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Marks",
+        "globals": [
+            {
+                "name": "total",
+                "access": "public"
+            }
+        ],
+        "params": [
+            "maths",
+            "physics",
+            "chemistry",
+            "biology",
+            "social",
+            "english",
+            "hindi"
+        ],
+        "functions": [
+            {
+                "name": "findTotal",
+                "params": [
+                    "maths",
+                    "physics",
+                    "chemistry",
+                    "biology",
+                    "social",
+                    "english",
+                    "hindi"
+                ]
+            }
+        ]
+    }
+]
